@@ -1,0 +1,18 @@
+@use 'abstracts/variables' as *;
+@use 'abstracts/mixins' as *;
+@use 'components/header';
+
+body {
+  background: $color-bg;
+  color: $color-text;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+// ini biar isi portofolio lama kamu kepake
+.profile-card {
+  @include card-style;
+  @include card-shadow;
+  max-width: 900px;
+  margin: $spacing-lg auto;
+}

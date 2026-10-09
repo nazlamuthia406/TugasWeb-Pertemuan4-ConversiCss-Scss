@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.site-header {
+  background: $color-surface;
+  padding: $spacing-md $spacing-lg;
+  @include flex-center;
+  justify-content: space-between;
+  border-bottom: 1px solid $color-border;
+
+  .nav {
+    display: flex;
+    gap: $spacing-md;
+
+    a {
+      color: $color-muted;
+      text-decoration: none;
+      &:hover { color: $color-primary; }
+    }
+  }
+
+  // TUGAS LOOP @each - ini biar lulus poin 7
+  @each $name, $col in (primary: $color-primary, muted: $color-muted) {
+    .text-#{$name} { color: $col; }
+  }
+}

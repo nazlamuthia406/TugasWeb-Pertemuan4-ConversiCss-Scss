@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Pribadi — Nazla Muthia</title>
+    <meta name="description" content="Landing page pribadi Nazla Muthia, mahasiswa Program Studi Ilmu Komputer, Jurusan Matematika, FMIPA, Universitas Negeri Medan.">
+    <link rel="stylesheet" href="SCSS/main.css">
+</head>
+
+<body>
+
+    <!-- ============================== -->
+    <!-- HEADER: Identitas dan Navigasi -->
+    <!-- ============================== -->
+    <header class="site-header">
+        <h1 class="site-header__title">Nazla Muthia</h1>
+        <p class="site-header__subtitle">Mahasiswa Program Studi Ilmu Komputer — Universitas Negeri Medan</p>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="#tentang">Tentang Saya</a></li>
+                <li><a class="nav__link" href="#pendidikan">Pendidikan</a></li>
+                <li><a class="nav__link" href="#minat">Minat</a></li>
+                <li><a class="nav__link" href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+
+        <!-- ============================== -->
+        <!-- ARTICLE: Tentang Saya -->
+        <!-- ============================== -->
+        <article id="tentang" class="card">
+            <h2 class="card__title">Tentang Saya</h2>
+
+            <div class="about__body">
+                <!-- Elemen media: gambar dengan alt deskriptif dan figcaption -->
+                <figure class="about__figure">
+                    <img class="about__photo" src="PasFoto.jpg" alt="Foto Nazla Muthia" width="300" height="400">
+                </figure>
+
+                <div class="about__text">
+                    <p>
+                        Saya adalah Nazla Muthia, mahasiswa Program Studi Ilmu Komputer, Jurusan Matematika,
+                        FMIPA, Universitas Negeri Medan. Saya memiliki ketertarikan terhadap dunia teknologi
+                        dan komputer serta berkomitmen untuk terus mengembangkan kemampuan di bidang tersebut.
+                    </p>
+
+                    <section>
+                        <h3>Data Diri</h3>
+                        <ul class="data-list">
+                            <li class="data-list__item"><strong>Nama Lengkap:</strong> Nazla Muthia</li>
+                            <li class="data-list__item"><strong>Tanggal Lahir:</strong> <time datetime="2008-02-16">16 Februari 2008</time></li>
+                            <li class="data-list__item"><strong>Universitas:</strong> Universitas Negeri Medan (UNIMED)</li>
+                            <li class="data-list__item"><strong>Fakultas:</strong> FMIPA</li>
+                            <li class="data-list__item"><strong>Jurusan:</strong> Matematika</li>
+                            <li class="data-list__item"><strong>Program Studi:</strong> Ilmu Komputer</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </article>
+
+        <!-- ============================== -->
+        <!-- ARTICLE: Pendidikan -->
+        <!-- ============================== -->
+        <article id="pendidikan" class="card">
+            <h2 class="card__title">Pendidikan</h2>
+
+            <!-- Disusun kronologis dari jenjang sebelumnya hingga saat ini -->
+            <div class="timeline">
+                <section class="timeline__item">
+                    <h3>SMP Negeri 4 Medan</h3>
+                    <p>Pendidikan tingkat Sekolah Menengah Pertama.</p>
+                </section>
+
+                <section class="timeline__item">
+                    <h3>SMA Negeri 10 Medan</h3>
+                    <p>Pendidikan tingkat Sekolah Menengah Atas.</p>
+                </section>
+
+                <section class="timeline__item">
+                    <h3>Universitas Negeri Medan</h3>
+                    <ul>
+                        <li>Fakultas: FMIPA</li>
+                        <li>Jurusan: Matematika</li>
+                        <li>Program Studi: Ilmu Komputer</li>
+                        <li>Status: Sedang ditempuh</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+
+        <!-- ============================== -->
+        <!-- ARTICLE: Minat -->
+        <!-- ============================== -->
+        <article id="minat" class="card">
+            <h2 class="card__title">Minat dan Ketertarikan</h2>
+            <ul class="interest-list">
+                <li class="interest-list__item">Teknologi informasi</li>
+                <li class="interest-list__item">Komputer</li>
+                <li class="interest-list__item">Pemrograman</li>
+                <li class="interest-list__item">Pengembangan kemampuan di bidang IT</li>
+                <li class="interest-list__item">Pengembangan diri</li>
+            </ul>
+            <p>
+                Saya memiliki ketertarikan untuk mempelajari dan mengembangkan kemampuan di bidang
+                teknologi informasi dan komputer. Sebagai mahasiswa Ilmu Komputer, saya ingin terus
+                memperluas pengetahuan dan kemampuan teknis agar dapat mengikuti perkembangan teknologi.
+            </p>
+        </article>
+
+        <!-- ============================== -->
+        <!-- ASIDE: Informasi Tambahan -->
+        <!-- ============================== -->
+        <aside class="tujuan card">
+            <h2 class="card__title">Tujuan Masa Depan</h2>
+            <p>
+                Ke depannya, saya ingin terus mengembangkan kemampuan di dunia IT dan komputer serta
+                mendapatkan pengalaman yang relevan dengan bidang yang saya pelajari selama perkuliahan.
+            </p>
+            <ol class="goals__list">
+                <li>Mengembangkan kemampuan pemrograman.</li>
+                <li>Memperdalam pengetahuan di bidang komputer dan teknologi.</li>
+                <li>Membuat proyek yang relevan dengan bidang Ilmu Komputer.</li>
+                <li>Mempersiapkan diri untuk memasuki dunia kerja.</li>
+            </ol>
+        </aside>
+
+        <!-- ============================== -->
+        <!-- ARTICLE: Kontak & Form -->
+        <!-- ============================== -->
+        <article id="kontak" class="card">
+            <h2 class="card__title">Kontak</h2>
+
+            <ul class="contact__list">
+                <li class="contact__item">Email: <a href="mailto:nazlamuthia406@gmail.com">nazlamuthia406@gmail.com</a></li>
+                <li class="contact__item">GitHub: <a href="https://github.com/nazlamuthia406">nazlamuthia406</a></li>
+            </ul>
+
+            <!-- Formulir interaktif dengan validasi bawaan HTML5 -->
+            <h3>Formulir Pesan</h3>
+            <form class="form" action="#" method="post">
+                <div class="form__group">
+                    <label class="form__label" for="nama">Nama:</label>
+                    <input class="form__input" type="text" id="nama" name="nama" required minlength="3" placeholder="Masukkan nama Anda">
+                </div>
+
+                <div class="form__group">
+                    <label class="form__label" for="email">Email:</label>
+                    <input class="form__input" type="email" id="email" name="email" required placeholder="nama@email.com">
+                </div>
+
+                <div class="form__group">
+                    <label class="form__label" for="pesan">Pesan:</label>
+                    <textarea class="form__textarea" id="pesan" name="pesan" required minlength="10" placeholder="Tulis pesan Anda"></textarea>
+                </div>
+
+                <button class="form__button" type="submit">Kirim Pesan</button>
+            </form>
+        </article>
+
+    </main>
+
+    <!-- ============================== -->
+    <!-- FOOTER -->
+    <!-- ============================== -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Nazla Muthia</p>
+        <p>Mahasiswa Program Studi Ilmu Komputer — Universitas Negeri Medan</p>
+        <p><a href="#tentang">Kembali ke atas</a></p>
+    </footer>
+
+</body>
+
+</html>
